@@ -9,7 +9,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: whitesmoke;
+    background: #d5f5d5; /* Light green background */
+    font-family: 'Arial', sans-serif;
 }
 
 .wrapper {
@@ -17,17 +18,25 @@ body {
     width: 100%;
     max-width: 400px;
     text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 128, 0, 0.5); /* Green glow */
 }
 
 h2 {
     font-size: 2em;
-    color: #e94d58;
+    color: #1f7a1f;
     margin: 15px 0;
+    font-weight: bold;
 }
 
 .gif {
     width: 100%;
     max-width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 3px solid #1f7a1f;
 }
 
 .btn-group {
@@ -44,18 +53,28 @@ button {
     border-radius: 30px;
     outline: none;
     cursor: pointer;
-    box-shadow: 0 2px 4px gray;
-    border: 2px solid #e94d58;
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.6);
+    border: 2px solid #1f7a1f;
+    transition: background 0.3s, color 0.3s;
 }
 
 button.yes-btn {
-    background: #e94d58;
+    background: #1f7a1f;
+}
+
+button.yes-btn:hover {
+    background: #145214;
 }
 
 button.no-btn {
     background: white;
-    color: #e94d58;
+    color: #1f7a1f;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+button.no-btn:hover {
+    background: #1f7a1f;
+    color: white;
 }
