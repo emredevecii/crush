@@ -3,10 +3,12 @@ const noBtn = document.querySelector(".no-btn");
 const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 
-// Change text and gif when the Yes button is clicked
+// When the Yes button is clicked
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Y";
-  gif.src = "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGI1cW5wMWhpaDF5b3pjdTF0OHZrcHJvaGkzOHJteDhmd245OGRnZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Vuw9m5wXviFIQ/giphy.gif";
+  question.innerHTML = "I love you too, Romina 💚";
+  gif.src = "https://i.giphy.com/media/l3nWwPz92cDBY0fRm/giphy.gif"; // Green hearts gif
+  yesBtn.innerHTML = "You're my everything 💕";
+  noBtn.style.display = "none"; // Hide No button after clicking Yes
 });
 
 // Make the No button move randomly on hover
@@ -22,6 +24,7 @@ noBtn.addEventListener("mouseover", () => {
   const randomX = Math.floor(Math.random() * maxX);
   const randomY = Math.floor(Math.random() * maxY);
 
+  noBtn.style.position = "absolute";
   noBtn.style.left = randomX + "px";
   noBtn.style.top = randomY + "px";
 });
