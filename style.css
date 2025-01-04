@@ -9,8 +9,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #d5f5d5; /* Light green background */
+    background: #1b1b1b;
     font-family: 'Arial', sans-serif;
+    color: white;
 }
 
 .wrapper {
@@ -18,25 +19,19 @@ body {
     width: 100%;
     max-width: 400px;
     text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    background: #ffffff;
-    box-shadow: 0 4px 20px rgba(0, 128, 0, 0.5); /* Green glow */
 }
 
 h2 {
     font-size: 2em;
-    color: #1f7a1f;
+    color: #00b894;
     margin: 15px 0;
-    font-weight: bold;
 }
 
 .gif {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
-    margin: 20px 0;
-    border: 3px solid #1f7a1f;
+    border: 2px solid #00b894;
 }
 
 .btn-group {
@@ -53,28 +48,27 @@ button {
     border-radius: 30px;
     outline: none;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.6);
-    border: 2px solid #1f7a1f;
-    transition: background 0.3s, color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border: 2px solid #00b894;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.9);
 }
 
 button.yes-btn {
-    background: #1f7a1f;
-}
-
-button.yes-btn:hover {
-    background: #145214;
+    background: #00b894;
 }
 
 button.no-btn {
-    background: white;
-    color: #1f7a1f;
+    background: transparent;
+    color: #00b894;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-}
-
-button.no-btn:hover {
-    background: #1f7a1f;
-    color: white;
 }
