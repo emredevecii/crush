@@ -8,7 +8,7 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "I knew you’d say yes 😎";
   gif.src = "https://i.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif"; // Masculine, confident gif
 });
-
+ 
 // Make the No button move randomly on hover
 noBtn.addEventListener("mouseover", () => {
   const wrapper = document.querySelector(".wrapper");
