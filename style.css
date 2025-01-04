@@ -54,6 +54,7 @@ button {
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
     border: none;
+    margin: 10px;
 }
 
 button.yes-btn {
@@ -63,8 +64,5 @@ button.yes-btn {
 button.no-btn {
     background: white;
     color: #2e8b57;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     border: 2px solid #2e8b57;
 }
