@@ -9,8 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #d0f0c0; /* Light green background */
-    font-family: 'Arial', sans-serif;
+    background: whitesmoke;
 }
 
 .wrapper {
@@ -18,28 +17,21 @@ body {
     width: 100%;
     max-width: 400px;
     text-align: center;
-    padding: 20px;
-    border: 2px solid #2e8b57;
-    border-radius: 20px;
-    background: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
-    font-size: 1.8em;
-    color: #2e8b57;
+    font-size: 2em;
+    color: #e94d58;
     margin: 15px 0;
 }
 
 .gif {
     width: 100%;
     max-width: 300px;
-    border-radius: 10px;
-    margin: 20px 0;
 }
 
 .btn-group {
-    margin-top: 20px;
+    margin-top: 50px;
     position: relative;
     height: 40px;
 }
@@ -53,12 +45,11 @@ button {
     outline: none;
     cursor: pointer;
     box-shadow: 0 2px 4px gray;
-    border: none;
-    margin: 10px;
+    border: 2px solid #e94d58;
 }
 
 button.yes-btn {
-    background: #2e8b57;
+    background: #e94d58;
 }
 
 button.no-btn {
