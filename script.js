@@ -6,7 +6,7 @@ const gif = document.querySelector(".gif");
 // When the Yes button is clicked
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love you too, Romina 💚";
-  gif.src = "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGJ5ZXJ5ZmoxNDZmYmtwdWo2bzIwMm9jNTM2NHc5eG54aTgyejM2cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oz8xsaLjLVqVXr3tS/giphy.gif"; // Green hearts gif
+  gif.src = "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXNhb3BkeWMycWF3c3hrdmxyaDQ4OHphYXlkY3c4Y281MzV2MjMxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LTcau7EnQLhHkxxG2u/giphy.gif"; // Green hearts gif
   yesBtn.innerHTML = "You're my everything 💕";
   noBtn.style.display = "none"; // Hide No button after clicking Yes
 });
